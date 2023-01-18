@@ -17,8 +17,18 @@ footer {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
+
+.github__link svg {
+    fill: #444;
+    transition: 0.3s;
+}
+
+.github__link svg:hover {
+    fill: #fff;
+}
+
 footer .copyright {
     font-size: 14px;
     color: #333;
@@ -32,4 +42,8 @@ footer .copyright a:hover {
 }
 footer .copyright:before {
     content: '©';
+}
+
+.rsschool {
+    width: 120px;
 }
